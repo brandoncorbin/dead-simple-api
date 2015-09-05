@@ -10,35 +10,12 @@ The Dead Simple API Engine is a Node module that allows you to quickly build a m
 ## Installation
 
 ````
-npm install https://github.com/brandoncorbin/dead-simple-api-engine.git --save
+git clone https://github.com/brandoncorbin/dead-simple-api.git
+cd dead-simple-api
+npm install
+node index.js
 ````
-
-## Using it in your APP
-```
-var express = require('express');
-var app = express();
-
-var DeadSimpleAPI = require('dead-simple-api-engine');
-var api = new DeadSimpleAPI(app, {
-	basepath : __dirname+'/api/', // Tell DSAPI where the API folder is located
-	hooks : {
-		before : function(req, res) {
-			console.log("I get fired before each event");
-		},
-		after : function(json) {
-			json.injected = true;
-			return json;
-		}
-	}
-}).scheduler.start(); // remove scheduler.start if you don't need scheduling.
-
-var server = app.listen(3100, function () {
-	var host = server.address().address;
-	var port = server.address().port;
-	console.log('Dead Simple API is now ALIVE! Listening over at: http://%s:%s', host, port);
-});
-
-```
+The visit: http://localhost:3100/v1/test/world
 
 ### Folder Structure
 
