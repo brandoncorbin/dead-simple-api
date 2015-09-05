@@ -10,6 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/brandoncorbin/dead-simple-api.git"
   },
+  "dependencies": {
+    "cors": "^2.7.1",
+    "dead-simple-api-engine": "git+https://github.com/brandoncorbin/dead-simple-api-engine.git",
+    "express": "^4.13.3",
+    "localStorage": "^1.0.3",
+    "moment": "^2.10.6",
+    "object-hash": "^0.9.1"
+  },
   "keywords": [
     "api",
     "node",
