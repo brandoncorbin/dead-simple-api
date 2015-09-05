@@ -1,0 +1,27 @@
+{
+  "name": "dead-simple-api",
+  "version": "0.0.1",
+  "description": "A super simple api in Node JS - with scheduled tasks ",
+  "main": "dead-simple-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandoncorbin/dead-simple-api.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "folders",
+    "scheduling",
+    "restful",
+    "simple"
+  ],
+  "author": "Brandon Corbin <brandon@happydata.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandoncorbin/dead-simple-api/issues"
+  },
+  "homepage": "https://github.com/brandoncorbin/dead-simple-api#readme"
+}
