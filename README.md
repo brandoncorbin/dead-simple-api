@@ -1,6 +1,6 @@
 # Dead Simple API Starter Kit
 
-Here's a Node/Express4 starter kit that uses the Dead Simple API Engine http://github.com/brandoncorbin/dead-simple-api-engine
+A Node/Express4 starter kit that uses the Dead Simple API Engine http://github.com/brandoncorbin/dead-simple-api-engine
 
 ## Overview
 The Dead Simple API Engine is a Node module that allows you to quickly build a maintainable restful API without all the headaches.
