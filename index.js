@@ -13,13 +13,15 @@ var dsapi = new DeadSimpleAPI(app, {
 			// Example on how to wrap all responses
 			// var response = { time : new Date(),response : json };
 			// return response;
+			json.injected = true;
+			return json;
 		},
 
 	}
 }).scheduler.start(); // remove scheduler.start if you don't need scheduling.
 
 
-var server = app.listen(3066, function () {
+var server = app.listen(3100, function () {
 	var host = server.address().address;
 	var port = server.address().port;
 	console.log('Dead Simple API is now ALIVE! Listening over at: http://%s:%s', host, port);

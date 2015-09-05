@@ -1,3 +1,3 @@
 module.exports = function(app) {
-	console.log("THIS IS A SIMPLE SCHEDULE PLUGIN!!!");
+	console.log("THIS IS A SIMPLE SCHEDULE PLUGIN that runs every minute!!!");
 };
